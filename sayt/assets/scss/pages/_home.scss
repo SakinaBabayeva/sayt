@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  background-color: transparent;
+  z-index: 4;
+  width: 100%;
+
+  nav {
+    width: 85%;
+    margin: auto;
+    justify-content: flex-end;
+  }
+}
+
+#mySection {
+  width: 100%;
+  background-color: rgb(138, 147,147);
+  height: auto;
+  img {
+    max-width: 100%;
+   height: auto;
+  }
+}
